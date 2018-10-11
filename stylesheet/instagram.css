@@ -1,0 +1,153 @@
+*{
+	font-family: 'Poppins', sans-serif;}
+
+body{
+	background-color: #FCFCFC;}
+
+#header{
+	width:100%;
+	height:auto;
+	z-index:1000;
+	margin-bottom:10px;
+	background-color: transparent; }
+
+.title{
+	position:relative;
+	font-family: 'Poppins', sans-serif;
+	font-size: 3.3vw;
+	color:#BFC8E2;
+	text-align:center;
+	margin-left:0%;
+	margin:auto;
+	margin-bottom: auto;
+	display: block;}
+
+#navigation{
+	position: relative;
+	margin-left:auto;
+	margin-top:auto;
+	margin-right:auto;}
+
+#navigation>li{
+	display: inline-block;
+	list-style:none;
+	position: relative;
+	margin-left:20%;
+	font-size:1.1vw;
+	text-decoration: none;}
+
+a{ 
+	text-decoration: none;
+	color:#353F5B;}
+
+ a:hover{
+ 	color:#AA4465;}
+
+.dropdown{
+	position:relative;}
+
+.drop-nav{
+	position: absolute;
+	display:none;}
+
+.drop-nav li{
+	position: relative;
+	border-bottom:1px solid #DBDBDB;
+	background-color: white;
+	width:100%;
+	padding:10px;
+	list-style: none;
+	z-index: 100;
+	top:2px;}
+
+.dropdown:hover>.drop-nav{
+	display: block;}
+
+#headimage{
+	position:relative;
+	max-width:60%;
+	text-align:center;
+	height:auto;
+	top:0%;
+	left:20%;}
+
+#headimage> img{
+	position:relative;
+	max-width:100%;
+	height:auto;
+	margin:auto;
+	margin-left:auto;}
+
+#headline{
+	position:relative;
+	top:0px;
+	max-width: 90%;}
+
+#headline> h1{
+	position:relative;
+	left:4%;
+	top:0;
+	font-size:3vw;}
+
+#headline> p{
+	position:relative;
+	left:5%;
+	top:0;
+	font-size:1.1vw;
+	text-align: justify;}
+
+#flexbox{
+	display: flex;
+	background-color: transparent;
+	position: relative;
+	width:95%;
+	margin:2%;
+	text-align: center;}
+
+#pic1, #pic2, #pic3, #pic4{
+	display: inline-block;
+	margin:3%;
+	width:20%;}
+
+#pic1>h3, #pic2>h3, #pic3>h3, #pic4>h3{
+	font-size: 1.2vw;
+	position:relative;}
+
+#image1>img, #image2>img, #image3>img, #image4>img{
+	width:100%;
+	position:relative;
+	transition:all .2s ease-in-out;}
+
+ #image1>img:hover, #image2>img:hover, #image3>img:hover, #image4>img:hover{
+ 	transform: scale(1.3);}
+
+
+h1{
+	font-size:2vw;
+	text-align: center;
+	margin-top:2%;}
+
+#text{
+	position:relative;
+	max-width: 90%;}
+
+
+h2{
+	position:relative;
+	text-align: center;
+	margin-left:7%;
+	font-size:2vw;}
+
+#text> p{
+	position:relative;
+	left:5%;
+	top:0;
+	font-family: 'Poppins',sans-serif;
+	font-size:1.1vw;
+	text-align: justify;}
+
+.runway{
+	float:left;
+	width:50%;
+	margin-left:5%;
+	margin-bottom: 2%;}
